@@ -38,7 +38,7 @@ header {
     background-color: white;
 }
 
-.page-header .container {
+.page-header > .container {
     display: flex;
 }
 

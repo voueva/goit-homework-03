@@ -38,6 +38,10 @@ header {
     background-color: white;
 }
 
+.page-header .container {
+    display: flex;
+}
+
 .logotype {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;

@@ -40,11 +40,12 @@ header {
 
 .page-header > .container {
     display: flex;
-    /* width: 1158px;  */
+    width: 1158px; 
     padding: 0 15px;
     align-items: center;
     justify-content: space-between;
     gap: 40px;
+    margin: 0 auto;
 }
 
 .page-navigation.container {
@@ -53,10 +54,11 @@ header {
     gap: 76px;
 }
 
-.page-list.container {
+.contact-list.container {
     display: flex;
     align-items: center;
     gap: 40px;
+    padding: 24px 0
 }
 
 

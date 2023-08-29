@@ -40,20 +40,35 @@ header {
 
 .page-header > .container {
     display: flex;
-    width: 1158px; 
+    /* width: 1158px;  */
     padding: 0 15px;
     align-items: center;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 .page-navigation.container {
     display: flex;
-    /* align-items: center; */
-    /* margin-right: 76px; */
+    align-items: center;
+    gap: 76px;
 }
+
+.page-list.container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
 
 .menu-list.container {
     display: flex;
+    gap: 40px;
 }
+
+.menu-item {
+   
+}
+
 
 .logotype {
     color: #4D5AE5;
@@ -64,6 +79,7 @@ header {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
+    margin-right: 76px
 }
 
 .italic-text {

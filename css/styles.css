@@ -107,7 +107,7 @@ header {
     color: #434455;
     font-weight: 400;
 }
-
+/* section 1 */
 .welcome-section {
     background: #2E2F42;
     color: white;
@@ -144,6 +144,10 @@ header {
 
 .goalbutton:focus {
     background-color: #404BBF;
+}
+/* section 2 */
+.slogan-section {
+    padding: 120px 0;
 }
 
 .slogantitle {

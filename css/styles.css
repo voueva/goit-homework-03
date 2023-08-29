@@ -42,6 +42,17 @@ header {
     display: flex;
     width: 1158px; 
     padding: 0 15px;
+    align-items: center;
+}
+
+.page-navigation.container {
+    display: flex;
+    /* align-items: center; */
+    /* margin-right: 76px; */
+}
+
+.menu-list.container {
+    display: flex;
 }
 
 .logotype {
@@ -83,6 +94,8 @@ header {
 .welcome-section {
     background: #2E2F42;
     color: white;
+    padding-top: 188px; 
+    padding-bottom: 188px;
 }
 
 .welcome-title {
@@ -90,6 +103,7 @@ header {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    max-width: 496px;
 }
 
 .goalbutton {
@@ -100,6 +114,11 @@ header {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .goalbutton:hover {

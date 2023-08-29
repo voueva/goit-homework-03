@@ -150,7 +150,7 @@ header {
     padding: 120px 0;
 }
 
-.visually-hidden {
+.slogantitle.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;

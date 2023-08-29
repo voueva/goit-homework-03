@@ -150,6 +150,18 @@ header {
     padding: 120px 0;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip: rect(0 0 0 0);
+    overflow: hidden; 
+}
+
 .slogantitle {
     font-weight: 500;
     font-size: 20px;
@@ -158,12 +170,22 @@ header {
     color: #2e2f42;
 }
 
+.slogan-list {
+    display: flex;
+    gap: 24px;
+}
+
+.slogan-item {
+    flex-basis: calc((100% - 72px) / 4);
+}
+
 .slogan-item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-item-name {
@@ -233,3 +255,4 @@ header {
 .footer-description {
     color: #F4F4FD;
 }
+

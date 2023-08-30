@@ -281,8 +281,12 @@ header {
 }
 
 .logotype {
-    /* display: inline-block;  */
+    
     margin-bottom: 16px  
+}
+
+.italic-text {
+    display: inline-block;  
 }
 
 .footer .italic-text {

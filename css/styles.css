@@ -150,7 +150,7 @@ header {
     padding: 120px 0;
 }
 
-.slogantitle.visually-hidden {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -292,7 +292,7 @@ header {
     color: #F4F4FD;
 }
 
-.footer-link {
+.footerlink {
     display: inline-block;
 }
 

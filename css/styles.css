@@ -292,3 +292,7 @@ header {
     color: #F4F4FD;
 }
 
+.footer-link {
+    display: inline-block;
+}
+

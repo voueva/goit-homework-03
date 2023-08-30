@@ -67,7 +67,7 @@ header {
 }
 
 .menu-item {
-    padding: 24px 0;
+    
 }
 
 
@@ -90,6 +90,7 @@ header {
 .menu-link {
     color: #2E2F42;   
     font-weight: 500;
+    padding: 24px 0;
 }
 
 .menu-link:hover,

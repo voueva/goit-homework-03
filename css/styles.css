@@ -48,6 +48,10 @@ header {
     margin: 0 auto;
 }
 
+.page-header-container {
+    display: flex;
+}
+
 .page-navigation.container {
     display: flex;
     align-items: center;

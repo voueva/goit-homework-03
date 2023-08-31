@@ -39,9 +39,9 @@ header {
 }
 
 .container {
+    display: flex;
     width: 1158px; 
     padding: 0 15px;
-    display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 40px;
@@ -64,10 +64,6 @@ header {
 .menu-list.container {
     display: flex;
     gap: 40px;
-}
-
-.menu-item {
-    
 }
 
 

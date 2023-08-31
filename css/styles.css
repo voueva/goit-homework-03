@@ -41,6 +41,10 @@ header {
 .container {
     width: 1158px; 
     padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
     margin: 0 auto;
 }
 
@@ -289,6 +293,7 @@ header {
 .footer-description {
     color: #F4F4FD;
 }
+
 .linkblock {
     display: inline-block;
 }

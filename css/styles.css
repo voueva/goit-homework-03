@@ -39,12 +39,8 @@ header {
 }
 
 .container {
-    display: flex;
     width: 1158px; 
     padding: 0 15px;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
     margin: 0 auto;
 }
 
@@ -279,6 +275,13 @@ header {
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
+}
+
+.footer > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 .logotype {

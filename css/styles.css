@@ -277,13 +277,6 @@ header {
     padding: 100px 0;
 }
 
-.footer > .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
-}
-
 .logotype {
     display: inline-block;
     margin-bottom: 16px  
